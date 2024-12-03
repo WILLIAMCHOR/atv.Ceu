@@ -1,0 +1,262 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Poppins";
+}
+/* Padronização */
+h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+}
+h2 span {
+    color: #1090CB;
+}
+h3 {
+    color: #000000;
+    font-size: 33px;
+    font-weight: 600;
+}
+h3 span {
+    color: #1090CB;
+}
+h4 {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 600;
+}
+h4 span {
+    color: #1090CB;
+}
+h5 {
+    color: #252525;
+    font-size: 25px;
+    font-weight: 600;
+}
+h5 span {
+    color: #1090CB;
+}
+p {
+    color: #5C5C5C;
+    line-height: 1.6em;
+    font-size: 16px;
+    padding: 6vh 0;
+}
+a {
+    text-decoration: none;
+}
+button {
+    color: #FFFFFF;
+    background: #1090CB;
+    border: 1px solid #1090CB;
+    font-weight: 400;
+    cursor: pointer;
+    transition: scale 0.3s;
+}
+button:hover {
+    scale: 110%;
+}
+button:active {
+    opacity: 0.5;
+}
+main button {
+    border-radius: 10px;
+    background: #1090CB;
+    font-size: 16px;
+    padding: 9px 52px;
+}
+section {
+    padding: 0 8%;
+}
+/* Header */
+header nav {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav h1 a {
+    color: #1090CB;
+    font-size: 29px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    padding: 0 30px;
+}
+header nav ul li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+header nav ul li .atual {
+    color: #1090CB;
+}
+header nav ul li button {
+    border-radius: 6px;
+    padding: 10px 26px;
+    font-size: 13px;
+}
+/* Main */
+.topo {
+    background: #E8F4FA;
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.topo div button:last-child {
+    background: transparent;
+    color: #1090CB;
+    margin-left: 15px;
+}
+.blocos {
+    padding: 6vh 8%;
+    border-bottom: 1px solid #C7C7C7;
+}
+.blocos .ulGrande {
+    display: flex;
+    justify-content: space-between;
+}
+.blocos .ulGrande li {
+    display: flex;
+    align-items: center;
+}
+.blocos .ulGrande img {
+    width: 80px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-right: 18px;
+}
+.blocos .ulGrande .web {
+    background: #EFEAFF;
+}
+.blocos .ulGrande .venda {
+    background: #ECFFDA;
+}
+.blocos .ulGrande .oculos {
+    background: #DAE6FF;
+}
+.blocos .ulGrande .celulaR {
+    background: #FFE5DA;
+}
+.blocos .ulGrande li {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blocos .ulGrande .subLi {
+    color: #969696;
+    font-size: 15px;
+    font-weight: 400;
+}
+.titulos {
+    padding: 20vh 0;
+    text-align: center;
+}
+.celulares .giganteDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.celulares .giganteDiv:last-child {
+    padding-top: 6vh;
+}
+.opcoes {
+    margin: 15vh 0;
+    display: flex;
+    justify-content: center;
+}
+.opcoes .divGrande {
+    padding: 8vh 5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcoes .divGrande:first-child {
+    background: #F4F4F4;
+}
+.opcoes .divGrande:last-child {
+    background: #1090CB;
+    margin-left: 4%;
+}
+.opcoes .divGrande h5, .opcoes .divGrande p {
+    text-align: center;
+}
+.opcoes .divGrande:last-child h5, .opcoes .divGrande:last-child p {
+    color: #FFFFFF;
+}
+.opcoes .divGrande:last-child button {
+    background: #FFFFFF;
+    color: #1090CB;
+}
+.pesquisa {
+    padding: 15vh;
+    background: #E8F4FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pesquisa h3 {
+    text-align: center;
+    margin-bottom: 6vh;
+}
+.pesquisa div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pesquisa input {
+    height: 60px;
+    width: 50%;
+    padding: 20px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 1%;
+}
+.pesquisa button {
+    background: #000000;
+    border: 1px solid black;
+}
+footer {
+    margin-top: 5vh;
+}
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8% 5vh 8%;
+    border-bottom: 1px solid #D2D2D2;
+}
+footer nav ul li {
+    font-size: 16px;
+    color: #515151;
+}
+footer nav .informar li span {
+    color: #00329B;
+    font-weight: 700;
+}
+footer nav .informar .espaco {
+    margin: 3vh 0;
+}
+footer nav .nav li span {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+}
+footer nav .nav li {
+    padding: 0.5vh 0;
+}
+footer nav .nav li a {
+    color: #515151;
+}
+footer p {
+    text-align: center;
+}
